@@ -1,8 +1,24 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Event Management App
 
-Currently, two official plugins are available:
+A MERN application to create, update, and manage events.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Create and manage events
+- RSVP to events
+- View upcoming and past events
+- MongoDB for persistent storage
+
+## Installation
+
+1. Setup React in `client`, run: `npm install && npm start`
+2. Setup Node backend in `server`, run: `npm install && npm start`
+
+## Tech Stack
+
+- MongoDB
+- Express.js
+- React.js
+- Node.js
